@@ -24,7 +24,7 @@ def UpdateBlip(blip, chop=0):
     while doc_text.find(text, i) != -1:
       i = doc_text.find(text, i)
       updates.append((i, text,
-                      "http://zeebo-devel.appspot.com/assets/emotes/%s" % src))
+                      "http://sa-emote.appspot.com/assets/emotes/%s" % src))
       i += len(text)
   
   updates.sort()
