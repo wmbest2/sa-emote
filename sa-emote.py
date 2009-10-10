@@ -30,7 +30,7 @@ def UpdateBlip(blip):
 if __name__ == '__main__':
   myRobot = robot.Robot('sa-emote', 
       image_url='http://sa-emote.appspot.com/assets/awesome.png',
-      version='2'
+      version='2',
       profile_url='http://sa-emote.appspot.com/')
   myRobot.RegisterHandler(events.DOCUMENT_CHANGED, OnBlipSubmitted)
   myRobot.Run()
